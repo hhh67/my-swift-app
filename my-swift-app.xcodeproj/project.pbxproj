@@ -14,6 +14,7 @@
 		58DB27002A2259BA004C3158 /* my_swift_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB26FF2A2259BA004C3158 /* my_swift_appTests.swift */; };
 		58DB270A2A2259BA004C3158 /* my_swift_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB27092A2259BA004C3158 /* my_swift_appUITests.swift */; };
 		58DB270C2A2259BA004C3158 /* my_swift_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB270B2A2259BA004C3158 /* my_swift_appUITestsLaunchTests.swift */; };
+		58DB271A2A226225004C3158 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 58DB27192A226225004C3158 /* Inject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DB271A2A226225004C3158 /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +145,9 @@
 			dependencies = (
 			);
 			name = "my-swift-app";
+			packageProductDependencies = (
+				58DB27192A226225004C3158 /* Inject */,
+			);
 			productName = "my-swift-app";
 			productReference = 58DB26EB2A2259B7004C3158 /* my-swift-app.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 58DB26E22A2259B7004C3158;
+			packageReferences = (
+				58DB27182A226225004C3158 /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = 58DB26EC2A2259B7004C3158 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -583,6 +591,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58DB27182A226225004C3158 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58DB27192A226225004C3158 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58DB27182A226225004C3158 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 58DB26E32A2259B7004C3158 /* Project object */;
 }
