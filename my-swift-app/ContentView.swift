@@ -10,19 +10,19 @@ import SwiftUI
 struct ContentView: View {  
     var body: some View {
         TabView {
-            Text("page 1")
+            ComponentsView()
                 .tabItem {
                     Image(systemName: "cube.fill")
                     Text("Components")
                 }
 
-            Text("page 2")
+            FoundationsView()
                 .tabItem {
                     Image(systemName: "square.stack.3d.up.fill")
                     Text("Foundations")
                 }
 
-            Text("page 3")
+            SettingsView()
                 .tabItem {
                     Image(systemName: "gear")
                     Text("Settings")
