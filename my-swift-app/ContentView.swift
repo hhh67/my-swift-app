@@ -7,15 +7,27 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ContentView: View {  
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            Text("page 1")
+                .tabItem {
+                    Image(systemName: "cube.fill")
+                    Text("Components")
+                }
+
+            Text("page 2")
+                .tabItem {
+                    Image(systemName: "square.stack.3d.up.fill")
+                    Text("Foundations")
+                }
+
+            Text("page 3")
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
         }
-        .padding()
     }
 }
 
