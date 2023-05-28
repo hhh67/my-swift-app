@@ -12,20 +12,43 @@ struct TinderView: View {
     private var frameWidth: CGFloat {
         UIScreen.main.bounds.width
     }
+    // 縦幅
+    private var frameHeight: CGFloat {
+        UIScreen.main.bounds.height
+    }
     
     var body: some View {
         VStack {
-            Text("Hello world")
-                .padding()
-                .frame(width: frameWidth)
-                .background(.red)
+            HStack(spacing: 0) {
+                TinderHeaderButton(
+                    _systemName: "flame",
+                    _width: frameWidth * 0.25
+                )
+                TinderHeaderButton(
+                    _systemName: "suit.diamond.fill",
+                    _width: frameWidth * 0.25
+                )
+                TinderHeaderButton(
+                    _systemName: "bubble.left.fill",
+                    _width: frameWidth * 0.25
+                )
+                TinderHeaderButton(
+                    _systemName: "person.fill",
+                    _width: frameWidth * 0.25
+                )
+            }
+            .padding()
+            .frame(width: frameWidth)
+            .background(.red)
+            
             Text("Hello world")
                 .padding()
                 .frame(
                     width: frameWidth,
-                    height: UIScreen.main.bounds.height * 0.6
+                    height: frameHeight * 0.6
                 )
                 .background(.red)
+            
             Text("Hello world")
                 .padding()
                 .frame(width: frameWidth)
