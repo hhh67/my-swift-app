@@ -27,6 +27,11 @@ struct ContentView: View {
                     Image(systemName: "gear")
                     Text("Settings")
                 }
+            TinderView()
+                .tabItem {
+                    Image(systemName: "flame.fill")
+                    Text("Tinder")
+                }
         }
     }
 }
