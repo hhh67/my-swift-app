@@ -10,12 +10,13 @@
 		5844FD172A2285740060CD6F /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD162A2285740060CD6F /* ComponentsView.swift */; };
 		5844FD192A2287B80060CD6F /* FoundationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD182A2287B80060CD6F /* FoundationsView.swift */; };
 		5844FD1B2A22880F0060CD6F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD1A2A22880F0060CD6F /* SettingsView.swift */; };
-		5844FD1D2A22F3B50060CD6F /* TinderiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD1C2A22F3B50060CD6F /* TinderiView.swift */; };
+		5844FD1D2A22F3B50060CD6F /* TinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD1C2A22F3B50060CD6F /* TinderView.swift */; };
 		5844FD202A22FB550060CD6F /* TinderHeaderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD1F2A22FB550060CD6F /* TinderHeaderButton.swift */; };
 		5844FD232A22FFF40060CD6F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD222A22FFF40060CD6F /* Color.swift */; };
 		5844FD262A2305D40060CD6F /* TinderFooterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD252A2305D40060CD6F /* TinderFooterButton.swift */; };
 		5844FD292A2310040060CD6F /* TinderViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD282A2310040060CD6F /* TinderViewHeader.swift */; };
 		5844FD2B2A23101F0060CD6F /* TinderViewFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD2A2A23101F0060CD6F /* TinderViewFooter.swift */; };
+		5844FD2F2A232EFB0060CD6F /* TinderViewBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5844FD2E2A232EFB0060CD6F /* TinderViewBody.swift */; };
 		58DB26EF2A2259B7004C3158 /* my_swift_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB26EE2A2259B7004C3158 /* my_swift_appApp.swift */; };
 		58DB26F12A2259B7004C3158 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DB26F02A2259B7004C3158 /* ContentView.swift */; };
 		58DB26F32A2259B9004C3158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DB26F22A2259B9004C3158 /* Assets.xcassets */; };
@@ -47,12 +48,13 @@
 		5844FD162A2285740060CD6F /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		5844FD182A2287B80060CD6F /* FoundationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationsView.swift; sourceTree = "<group>"; };
 		5844FD1A2A22880F0060CD6F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		5844FD1C2A22F3B50060CD6F /* TinderiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderiView.swift; sourceTree = "<group>"; };
+		5844FD1C2A22F3B50060CD6F /* TinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderView.swift; sourceTree = "<group>"; };
 		5844FD1F2A22FB550060CD6F /* TinderHeaderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderHeaderButton.swift; sourceTree = "<group>"; };
 		5844FD222A22FFF40060CD6F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5844FD252A2305D40060CD6F /* TinderFooterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderFooterButton.swift; sourceTree = "<group>"; };
 		5844FD282A2310040060CD6F /* TinderViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderViewHeader.swift; sourceTree = "<group>"; };
 		5844FD2A2A23101F0060CD6F /* TinderViewFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderViewFooter.swift; sourceTree = "<group>"; };
+		5844FD2E2A232EFB0060CD6F /* TinderViewBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderViewBody.swift; sourceTree = "<group>"; };
 		58DB26EB2A2259B7004C3158 /* my-swift-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-swift-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DB26EE2A2259B7004C3158 /* my_swift_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_swift_appApp.swift; sourceTree = "<group>"; };
 		58DB26F02A2259B7004C3158 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,22 +97,22 @@
 			isa = PBXGroup;
 			children = (
 				5844FD272A230FEC0060CD6F /* Molecules */,
-				5844FD212A22FFE00060CD6F /* Extension */,
+				5844FD212A22FFE00060CD6F /* Extensions */,
 				5844FD1E2A22FB420060CD6F /* Atoms */,
-				5844FD152A2285610060CD6F /* View */,
+				5844FD152A2285610060CD6F /* Views */,
 			);
 			path = Src;
 			sourceTree = "<group>";
 		};
-		5844FD152A2285610060CD6F /* View */ = {
+		5844FD152A2285610060CD6F /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				5844FD182A2287B80060CD6F /* FoundationsView.swift */,
 				5844FD1A2A22880F0060CD6F /* SettingsView.swift */,
-				5844FD1C2A22F3B50060CD6F /* TinderiView.swift */,
+				5844FD1C2A22F3B50060CD6F /* TinderView.swift */,
 				5844FD162A2285740060CD6F /* ComponentsView.swift */,
 			);
-			path = View;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		5844FD1E2A22FB420060CD6F /* Atoms */ = {
@@ -122,21 +124,29 @@
 			path = Atoms;
 			sourceTree = "<group>";
 		};
-		5844FD212A22FFE00060CD6F /* Extension */ = {
+		5844FD212A22FFE00060CD6F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				5844FD222A22FFF40060CD6F /* Color.swift */,
 			);
-			path = Extension;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		5844FD272A230FEC0060CD6F /* Molecules */ = {
 			isa = PBXGroup;
 			children = (
 				5844FD282A2310040060CD6F /* TinderViewHeader.swift */,
+				5844FD2E2A232EFB0060CD6F /* TinderViewBody.swift */,
 				5844FD2A2A23101F0060CD6F /* TinderViewFooter.swift */,
 			);
 			path = Molecules;
+			sourceTree = "<group>";
+		};
+		5844FD2D2A2313610060CD6F /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 		58DB26E22A2259B7004C3158 = {
@@ -162,6 +172,7 @@
 		58DB26ED2A2259B7004C3158 /* my-swift-app */ = {
 			isa = PBXGroup;
 			children = (
+				5844FD2D2A2313610060CD6F /* Mocks */,
 				5844FD142A2285590060CD6F /* Src */,
 				58DB26EE2A2259B7004C3158 /* my_swift_appApp.swift */,
 				58DB26F02A2259B7004C3158 /* ContentView.swift */,
@@ -334,8 +345,9 @@
 			files = (
 				5844FD262A2305D40060CD6F /* TinderFooterButton.swift in Sources */,
 				5844FD202A22FB550060CD6F /* TinderHeaderButton.swift in Sources */,
+				5844FD2F2A232EFB0060CD6F /* TinderViewBody.swift in Sources */,
 				5844FD2B2A23101F0060CD6F /* TinderViewFooter.swift in Sources */,
-				5844FD1D2A22F3B50060CD6F /* TinderiView.swift in Sources */,
+				5844FD1D2A22F3B50060CD6F /* TinderView.swift in Sources */,
 				5844FD1B2A22880F0060CD6F /* SettingsView.swift in Sources */,
 				58DB26F12A2259B7004C3158 /* ContentView.swift in Sources */,
 				5844FD192A2287B80060CD6F /* FoundationsView.swift in Sources */,

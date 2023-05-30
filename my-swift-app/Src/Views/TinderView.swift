@@ -31,13 +31,10 @@ struct TinderView: View {
                 _selectedItem: selectedItem
             )
             
-            Text("Hello world")
-                .padding()
-                .frame(
-                    width: frameWidth,
-                    height: frameHeight * 0.6
-                )
-                .background(.red)
+            TinderViewBody(
+                _frameWidth: frameWidth,
+                _frameHeight: frameHeight
+            )
             
             TinderViewFooter(
                 _frameWidth: frameWidth,
